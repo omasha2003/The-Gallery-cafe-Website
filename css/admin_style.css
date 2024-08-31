@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("The Gallery Cafe/font/MuseoSansRounded100.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("The Gallery Cafe/font/MuseoSansRounded300.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("The Gallery Cafe/font/MuseoSansRounded500.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("The Gallery Cafe/font/MuseoSansRounded700.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("The Gallery Cafe/font/MuseoSansRounded900.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("The Gallery Cafe/font/MuseoSansRounded1000.otf") format("opentype");
+  font-weight: 1000;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+  }
+
+  
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #405c45;
+  height: 150px;
+  width: 100%;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+  padding: 0 30px; 
+}
+
+.logo {
+  height: 100px;
+  width: auto
+  
+}
+
+.admin-portal {
+  text-align: left;
+  padding-left: 30px;
+  flex: 1;
+  font-size: 33px;
+  font-family: "Museo Sans Rounded", sans-serif;
+  font-weight: 400;
+  color: #fffcda;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fffcda;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: "Museo Sans Rounded", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.account-icon {
+  height: 50px;
+  width: auto;
+  cursor: pointer;
+  font-size: 24px; 
+  color: #fffcda;
+}
+
+.account-icon a:hover {
+  color: #ffffff;
+}
+
+.content-wrapper {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.main-content {
+  flex: 1;
+  font-weight: 300;
+  font-size: medium;
+  letter-spacing: 1px;
+  margin-right: 40px;
+}
+
+.sidebar {
+  max-width: 300px;
+}
+
+.sidebar h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.sidebar p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #405c45;
+  color: #fffcda;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #324a34;
+}
+
+.footer {
+  background-color: #bba586;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  margin-top: auto;
+}
+
+
+.food-form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-form-container h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.food-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.food-form-container label {
+    margin-bottom: 10px;
+}
+
+.food-form-container input,
+.food-form-container select,
+.food-form-container textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.food-form-container button {
+    background-color: #405c45;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.food-form-container button:hover {
+    background-color: #555;
+}
+
+.food-form-container .cancel-button {
+    background-color: #282733;
+    margin-top: 10px;
+}
+
+.food-form-container .cancel-button:hover {
+    background-color: #282733;
+}
+
+.food-form-container p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.food-form-container p a {
+    color: #405c45;
+    text-decoration: none;
+}
+
+.food-form-container p a:hover {
+    text-decoration: underline;
+}
