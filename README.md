@@ -11,3 +11,6 @@ Admin Home
 
 Admin Food Menu
 ![image alt](https://github.com/omasha2003/The-Gallery-cafe-Website/blob/main/Screenshot%202024-10-06%20101226.png?raw=true)
+
+User Management
+![image alt](https://github.com/omasha2003/The-Gallery-cafe-Website/blob/main/Screenshot%202024-10-06%20141329.png?raw=true)
