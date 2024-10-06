@@ -8,3 +8,6 @@ Customer Menu
 
 Admin Home
 ![image alt](https://github.com/omasha2003/The-Gallery-cafe-Website/blob/main/Screenshot%202024-10-06%20101207.png?raw=true)
+
+Admin Food Menu
+![image alt](https://github.com/omasha2003/The-Gallery-cafe-Website/blob/main/Screenshot%202024-10-06%20101226.png?raw=true)
